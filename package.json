@@ -16,7 +16,7 @@
 		"test": "npm run lint",
 		"start": "electron .",
 		"pack": "electron-builder --dir",
-		"dist": "electron-builder --macos --linux --windows --x64 --ia32 -p always",
+		"dist": "electron-builder --macos --linux --windows",
 		"release": "np"
 	},
 	"dependencies": {
@@ -64,6 +64,17 @@
 				}
 			]
 		},
+		"win": {
+			"target": [
+			  {
+				"target": "nsis",
+				"arch": [
+				  "x64",
+				  "ia32"
+				]
+			  }
+			]
+		  },
 		"linux": {
 			"target": [
 				"AppImage",
