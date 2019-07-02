@@ -1,7 +1,7 @@
 {
 	"name": "excel-sql",
 	"productName": "excel-sql",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "Run SQL Query to an excel sheet",
 	"license": "MIT",
 	"repository": "elbadawy/excel-sql",
@@ -66,15 +66,15 @@
 		},
 		"win": {
 			"target": [
-			  {
-				"target": "nsis",
-				"arch": [
-				  "x64",
-				  "ia32"
-				]
-			  }
+				{
+					"target": "nsis",
+					"arch": [
+						"x64",
+						"ia32"
+					]
+				}
 			]
-		  },
+		},
 		"linux": {
 			"target": [
 				"AppImage",
