@@ -2,13 +2,13 @@
 	"name": "excel-sql",
 	"productName": "excel-sql",
 	"version": "0.0.1-0",
-	"description": "My cat&#39;s pajamas app",
+	"description": "Run SQL Query to an excel sheet",
 	"license": "MIT",
 	"repository": "elbadawy/excel-sql",
 	"author": {
 		"name": "Ahmad Elbadawy",
 		"email": "elbadawy19793@yahoo.com",
-		"url": "ahmadelbadawy.com"
+		"url": "http://ahmadelbadawy.com"
 	},
 	"scripts": {
 		"postinstall": "electron-builder install-app-deps",
