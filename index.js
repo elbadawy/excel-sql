@@ -36,7 +36,10 @@ const createMainWindow = async () => {
 		show: false,
 		width: 900,
 		height: 600,
-		titleBarStyle: 'hidden'
+		titleBarStyle: 'hidden',
+		webPreferences: {
+            nodeIntegration: true
+        }
 	});
 
 	win.on('ready-to-show', () => {
