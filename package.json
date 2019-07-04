@@ -16,7 +16,7 @@
 		"test": "npm run lint",
 		"start": "electron .",
 		"pack": "electron-builder --dir",
-		"dist": "electron-builder build -wl --macos --linux --windows",
+		"dist": "electron-builder build -wl --macos --linux --win",
 		"release": "np"
 	},
 	"dependencies": {
@@ -69,7 +69,6 @@
 				{
 					"target": "nsis",
 					"arch": [
-						"x64",
 						"ia32"
 					]
 				}
