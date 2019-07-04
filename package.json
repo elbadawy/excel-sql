@@ -1,7 +1,7 @@
 {
 	"name": "excel-sql",
 	"productName": "excel-sql",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"description": "Run SQL Query to an excel sheet",
 	"license": "MIT",
 	"repository": "elbadawy/excel-sql",
